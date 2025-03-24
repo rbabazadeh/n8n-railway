@@ -1,11 +1,6 @@
 # Base image
 FROM docker.n8n.io/n8nio/n8n
 
-# Set environment variables (optional)
-ENV N8N_BASIC_AUTH_ACTIVE=true
-ENV N8N_BASIC_AUTH_USER=r.babazadeh
-ENV N8N_BASIC_AUTH_PASSWORD=rb2536N
-
 # Expose the default port
 EXPOSE 5678
 
